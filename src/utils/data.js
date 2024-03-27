@@ -51,3 +51,36 @@ export const SKILLS = [
 
 
 ]
+
+export const WORK_EXPERIENCE = [
+    {
+        title: 'FullStack Intern at Nursa',
+        date: 'August 2023 — November 2023',
+        responsibilities: [
+            'Contributed to the development of a React-based application for automating nursing license verification.',
+            'Translated Figma designs into responsive and pixel-perfect front-end code.',
+            'Utilized web scraping tools to extract nursing license information from various sources.',
+            'Implemented backend functionalities for data processing and accurate license verification'
+        ]
+    },
+    {
+        title: 'FullStack Intern at Nursa',
+        date: 'August 2023 — November 2023',
+        responsibilities: [
+            'Contributed to the development of a React-based application for automating nursing license verification.',
+            'Translated Figma designs into responsive and pixel-perfect front-end code.',
+            'Utilized web scraping tools to extract nursing license information from various sources.',
+            'Implemented backend functionalities for data processing and accurate license verification'
+        ]
+    },
+    {
+        title: 'FullStack Intern at Nursa',
+        date: 'August 2023 — November 2023',
+        responsibilities: [
+            'Contributed to the development of a React-based application for automating nursing license verification.',
+            'Translated Figma designs into responsive and pixel-perfect front-end code.',
+            'Utilized web scraping tools to extract nursing license information from various sources.',
+            'Implemented backend functionalities for data processing and accurate license verification'
+        ]
+    }
+]
