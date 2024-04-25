@@ -1,7 +1,8 @@
 import React from "react";
 import './MobileNav.css'
+import resume from "../../../utils/ginelie-mora-resume.pdf"
 
-const MobileNav = ({ isOpen, toggleMenu }) => {
+const MobileNav = ({ isOpen, toggleMenu, sections, scrollToRef }) => {
     return (
         <>
             <div
@@ -9,23 +10,37 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                 onClick={toggleMenu}
             >
                 <div className="mobile-menu-container">
-                    <img className="logo" src="" alt="" />
                     <ul>
                         <li>
-                            <a className="menu-item">Home</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.hero)
+                            }>Home</div>
                         </li>
                         <li>
-                            <a className="menu-item">Skills</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.skills)
+                            }>Skills</div>
                         </li>
                         <li>
-                            <a className="menu-item">Work Experience</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.work)
+                            }>Work Experience</div>
                         </li>
                         <li>
-                            <a className="menu-item">Contact Me</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.projects)
+                            }>Projects</div>
                         </li>
-                        <button className="contact-btn" onClick={() => { }}>
-                            Resume
-                        </button>
+                        <li>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.contact)
+                            }>Contact Me</div>
+                        </li>
+                        <a className='a-tag' href={resume} download='Resume' target="_blank" >
+                            <button className="contact-btn" onClick={() => { }}>
+                                Resume
+                            </button>
+                        </a>
                     </ul>
                 </div>
             </div>

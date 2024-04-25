@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
+import resume from "../../utils/ginelie-mora-resume.pdf"
 
-const Navbar = () => {
+const Navbar = ({ sections, scrollToRef }) => {
     const [openMenu, setOpenMenu] = useState(false)
     const toggleMenu = () => {
         setOpenMenu(!openMenu);
@@ -10,27 +11,41 @@ const Navbar = () => {
 
     return (
         <>
-            <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+            <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} sections={sections}
+                scrollToRef={scrollToRef} />
             <nav className="nav-wrapper">
                 <div className="nav-content">
-                    <img className="logo" src="" alt="" />
-                    <img className="logo" src="" alt="" />
                     <ul>
                         <li>
-                            <a className="menu-item">Home</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.hero)
+                            }>Home</div>
                         </li>
                         <li>
-                            <a className="menu-item">Skills</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.skills)
+                            }>Skills</div>
                         </li>
                         <li>
-                            <a className="menu-item">Work Experience</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.work)
+                            }>Work Experience</div>
                         </li>
                         <li>
-                            <a className="menu-item">Contact Me</a>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.projects)}>Projects</div>
                         </li>
-                        <button className="contact-btn" onClick={() => { }}>
-                            Resume
-                        </button>
+                        <li>
+                            <div className="menu-item" onClick={() =>
+                                scrollToRef(sections.contact)
+                            }>Contact Me</div>
+
+                        </li>
+                        <a className='a-tag' href={resume} download='Resume' target="_blank" >
+                            <button className="contact-btn" onClick={() => { }}>
+                                Resume
+                            </button>
+                        </a>
                     </ul>
                     <button className="menu-btn" onClick={toggleMenu}>
                         <span

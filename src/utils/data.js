@@ -83,4 +83,46 @@ export const WORK_EXPERIENCE = [
             'Implemented backend functionalities for data processing and accurate license verification'
         ]
     }
+
+
+
+]
+
+export const PROJECTS = [
+    {
+        title: 'Project React',
+        imgUrl: './assets/images/logo512.png',
+        description: 'Desing & Development',
+        skills: ['React', 'Express'],
+        demo: "https://www.example.com",
+        source: 'https://github.com/'
+
+    },
+    {
+        title: 'Project Node',
+        imgUrl: './assets/images/logo512.png',
+        description: 'Desing & Development',
+        skills: ['React', 'Express'],
+        demo: "https://www.example.com",
+        source: 'https://github.com/'
+    },
+    {
+        title: 'Project CSS',
+        imgUrl: './assets/images/logo512.png',
+        description: 'Desing & Development',
+        skills: ['React', 'Express'],
+        demo: "https://www.example.com",
+        source: 'https://github.com/'
+    },
+    {
+        title: 'Project HTML',
+        imgUrl: './assets/images/logo512.png',
+        description: 'Desing & Development',
+        skills: ['React', 'Express'],
+        demo: "https://www.example.com",
+        source: 'https://github.com/'
+    }
+
+
+
 ]
