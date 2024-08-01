@@ -99,12 +99,12 @@ export const PROJECTS = [
 
     },
     {
-        title: 'Project Node',
+        title: 'Project React and Node.js',
         imgUrl: './assets/images/logo512.png',
-        description: 'Desing & Development',
+        description: 'Real Time Chat ',
         skills: ['React', 'Express'],
-        demo: "https://www.example.com",
-        source: 'https://github.com/'
+        demo: "https://6634090b1174b1521c3ae817--splendid-llama-1c35ec.netlify.app/",
+        source: 'https://github.com/Gigimr/RealTimeChat'
     },
     {
         title: 'Project CSS',
