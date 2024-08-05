@@ -63,28 +63,6 @@ export const WORK_EXPERIENCE = [
             'Implemented backend functionalities for data processing and accurate license verification'
         ]
     },
-    {
-        title: 'FullStack Intern at Nursa',
-        date: 'August 2023 — November 2023',
-        responsibilities: [
-            'Contributed to the development of a React-based application for automating nursing license verification.',
-            'Translated Figma designs into responsive and pixel-perfect front-end code.',
-            'Utilized web scraping tools to extract nursing license information from various sources.',
-            'Implemented backend functionalities for data processing and accurate license verification'
-        ]
-    },
-    {
-        title: 'FullStack Intern at Nursa',
-        date: 'August 2023 — November 2023',
-        responsibilities: [
-            'Contributed to the development of a React-based application for automating nursing license verification.',
-            'Translated Figma designs into responsive and pixel-perfect front-end code.',
-            'Utilized web scraping tools to extract nursing license information from various sources.',
-            'Implemented backend functionalities for data processing and accurate license verification'
-        ]
-    }
-
-
 
 ]
 
@@ -102,7 +80,7 @@ export const PROJECTS = [
         title: 'Real Time Chat',
         imgUrl: './assets/images/Real-time-chat.png',
         description: 'Developed a responsive web application using React, featuring real-time chat functionality with Express, Socket.io, Node, and Vite. Implemented dynamic components, ensuring cross-browser compatibility and mobile responsiveness. Utilized best practices in front-end development.',
-        skills: ['React', 'Express','Socket.io','Node','Vite'],
+        skills: ['React', 'Express', 'Socket.io', 'Node', 'Vite'],
         demo: "https://6634090b1174b1521c3ae817--splendid-llama-1c35ec.netlify.app/",
         source: 'https://github.com/Gigimr/RealTimeChat'
     },
@@ -118,7 +96,7 @@ export const PROJECTS = [
         title: 'Blogs FullStack',
         imgUrl: './assets/images/logo512.png',
         description: 'Developed a full-stack blog application using React and Tailwind CSS for the front end, with Express and Node for the back end. Implemented MongoDB for data storage and JSON Web Tokens for secure authentication. Employed Jest for unit testing and Cypress for end-to-end testing, ensuring a reliable and robust application.',
-        skills: ['React','Tailwind','Express','MongoDb', 'Node','JsonWebToken','Jest','Cypress'],
+        skills: ['React', 'Tailwind', 'Express', 'MongoDb', 'Node', 'JsonWebToken', 'Jest', 'Cypress'],
         //demo: "https://www.example.com",
         source: 'https://github.com/Gigimr/Blog'
     }
