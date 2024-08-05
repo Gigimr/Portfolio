@@ -5,8 +5,9 @@ const Hero = ({ elRef }) => {
     return (<>
         <section ref={elRef} className='hero-container'>
             <div className='hero-content'>
-                <h2>Building Digital Experiences That Inspire</h2>
-                <p>Passionate FullStack Developer | Transforming Ideas into Seamless and
+            <h2>Ginelie Mora Salazar</h2>
+            <h3>Building Digital Experiences That Inspire</h3>
+            <p>Passionate FullStack Developer | Transforming Ideas into Seamless and
                     Visually Stunning Web Solutions
                 </p>
             </div>
