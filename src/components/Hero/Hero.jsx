@@ -17,7 +17,7 @@ const Hero = ({ elRef }) => {
                         <img src='./assets/images/js.png' alt='' />
 
                     </div>
-                    <img src='./assets/images/logo512.png' alt='' />
+                    <img src='./assets/images/logo.png' alt='' />
                 </div>
 
                 <div>

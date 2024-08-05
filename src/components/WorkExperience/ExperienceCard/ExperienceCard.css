@@ -44,6 +44,7 @@
 @media (max-width: 768px) {
     .work-experience-card {
         margin: 0;
+        gap: 2rem
     }
 
     .work-experience-card h6 {

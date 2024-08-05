@@ -1,23 +1,20 @@
 .projects-container {
     margin: 4rem 0;
+    text-align: center;
     position: relative;
-
-    /* margin-top: 76px;
-    margin-left: 10%;
-    margin-right: 10%; */
+    padding: 0 2rem;
 }
 
 .projects-container::after,
 .projects-container::before {
     content: " ";
-    width: 28rem;
-    height: 28rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 28.125rem;
     background: #7c66e3;
     position: absolute;
     z-index: -1;
     filter: blur(200px);
-
 }
 
 .projects-container::after {
@@ -31,45 +28,73 @@
     right: 0rem;
 }
 
-.projects-container h5 {
-    font-size: 1.5rem;
+.projects-container h2 {
+    font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .projects-container p {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 400;
     margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .projects-content {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-
+    gap: 1.5rem;
 }
 
-@media(max-width:1024px) {
-    .projects-container h5 {
-        
-        margin-bottom: 2rem;
 
-    }
-}
 
-@media(max-width: 768px) {
-    .projects-container h5 {
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
+@media (max-width: 1024px) {
+    .projects-container h2 {
+        font-size: 2rem;
     }
 
-    .projects-content {
-        display: block;
+    .projects-container p {
+        font-size: 1rem;
     }
 
     .projects-container::after,
     .projects-container::before {
-        width: 18rem;
-        height: 18rem;
+        width: 20rem;
+        height: 20rem;
     }
 }
+
+@media (max-width: 768px) {
+    .projects-container h2 {
+        font-size: 1.75rem;
+    }
+
+    .projects-container p {
+        font-size: 0.9rem;
+    }
+
+    .projects-container::after,
+    .projects-container::before {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .projects-container p {
+        font-size: 0.8rem;
+    }
+
+    .projects-container::after,
+    .projects-container::before {
+        width: 10rem;
+        height: 10rem;
+    }}
