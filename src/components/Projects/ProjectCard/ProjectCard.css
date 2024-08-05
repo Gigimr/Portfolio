@@ -1,166 +1,164 @@
 .projectCardTilt {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .showMore {
-    position: absolute;
-    bottom: 0;
-    color: #967df0;
-    text-decoration: none;
-    font-weight: 500;
-    margin-bottom: 5px;
+  position: absolute;
+  bottom: 0;
+  color: #967df0;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .projectCard {
-    background: #130f2a;
-    max-width: 300px;
-    border-radius: 0.75rem;
-    border: 1.5px solid #6751b9;
-    padding: 1.5rem;
-    padding-bottom: 2rem;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    min-height: 500px;
+  background: #130f2a;
+  max-width: 300px;
+  border-radius: 0.75rem;
+  border: 1.5px solid #6751b9;
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  min-height: 500px;
 }
 
 .projectCard-full {
-    height: 100%;
+  height: 100%;
 }
 
 .projectCard-hide {
-    height: 500px;
-    max-height: 500px;
-    overflow: hidden;
+  height: 500px;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .projectCard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .projectCard img {
-    width: 100%;
-    border-radius: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 .projectCard-content {
-    text-align: left;
-
+  text-align: left;
 }
 
 .projectCard-content-full {
-    height: 100%;
+  height: 100%;
 }
 
 .projectCard-content-hide {
-    height: 230px;
-    overflow: hidden;
+  height: 230px;
+  overflow: hidden;
 }
 
 .projectCard h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 1rem 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
 }
 
 .projectCard-content-description {
-    font-size: 0.8rem !important;
-    font-weight: 300;
-    margin-bottom: 1rem;
+  font-size: 0.8rem !important;
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .projectCard ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .projectCard ul li {
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin-bottom: 0.5rem;
-    position: relative;
-    padding-left: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.2rem;
 }
 
 .projectCard ul li::before {
-    content: "•";
-    color: #6751b9;
-    position: absolute;
-    left: 0;
+  content: '•';
+  color: #6751b9;
+  position: absolute;
+  left: 0;
 }
 
 .projectCard-img {
-    object-fit: cover;
-    max-width: 200px;
-    max-height: 200px;
-    height: 200px;
-
+  object-fit: cover;
+  max-width: 200px;
+  max-height: 200px;
+  height: 200px;
 }
 
 .projectCard-links a {
-    color: #967df0;
-    text-decoration: none;
-    font-weight: 500;
+  color: #967df0;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .projectCard-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .description-hide {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    max-height: 4.5em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  max-height: 4.5em;
 }
 
-.description-full {}
+.description-full {
+}
 
 @media (max-width: 1024px) {
-    .projectCard {
-        max-width: 300px;
-    }
+  .projectCard {
+    max-width: 300px;
+  }
 
-    .projectCard h3 {
-        font-size: 1rem;
-    }
+  .projectCard h3 {
+    font-size: 1rem;
+  }
 
-    .projectCard ul li {
-        font-size: 0.7rem;
-    }
+  .projectCard ul li {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .projectCard {
-        max-width: 300px;
-        margin: 0.5rem;
-    }
+  .projectCard {
+    max-width: 300px;
+    margin: 0.5rem;
+  }
 
-    .projectCard h3 {
-        font-size: 0.9rem;
-    }
+  .projectCard h3 {
+    font-size: 0.9rem;
+  }
 
-
-    .projectCard ul li {
-        font-size: 0.7rem;
-    }
+  .projectCard ul li {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .projectCard {
-        margin: 0.5rem;
-    }
+  .projectCard {
+    margin: 0.5rem;
+  }
 
-    .projectCard h3 {
-        font-size: 0.8rem;
-    }
+  .projectCard h3 {
+    font-size: 0.8rem;
+  }
 
-    .projectCard ul li {
-        font-size: 0.5rem;
-    }
+  .projectCard ul li {
+    font-size: 0.5rem;
+  }
 }
