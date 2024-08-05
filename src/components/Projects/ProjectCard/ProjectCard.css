@@ -1,11 +1,11 @@
 .projectCardTilt {
-    width: 100%;
-    /* Ajusta esto según sea necesario */
     margin: 1rem;
 }
 
 .projectCard {
     background: #130f2a;
+    max-width: 300px;
+    max-height: 500px;
     border-radius: 0.75rem;
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
