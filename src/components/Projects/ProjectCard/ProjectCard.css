@@ -2,18 +2,37 @@
     margin: 1rem;
 }
 
+.showMore {
+    position: absolute;
+    bottom: 0;
+    color: #967df0;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
 .projectCard {
     background: #130f2a;
     max-width: 300px;
-    max-height: 500px;
     border-radius: 0.75rem;
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
+    padding-bottom: 2rem;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-height: 500px;
+}
 
+.projectCard-full {
+    height: 100%;
+}
+
+.projectCard-hide {
+    height: 500px;
+    max-height: 500px;
+    overflow: hidden;
 }
 
 .projectCard:hover {
@@ -28,6 +47,16 @@
 
 .projectCard-content {
     text-align: left;
+
+}
+
+.projectCard-content-full {
+    height: 100%;
+}
+
+.projectCard-content-hide {
+    height: 230px;
+    overflow: hidden;
 }
 
 .projectCard h3 {
@@ -36,8 +65,8 @@
     margin: 1rem 0 0.5rem;
 }
 
-.projectCard p {
-    font-size: 1rem;
+.projectCard-content-description {
+    font-size: 0.8rem !important;
     font-weight: 300;
     margin-bottom: 1rem;
 }
@@ -63,8 +92,16 @@
     left: 0;
 }
 
+.projectCard-img {
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 200px;
+    height: 200px;
+
+}
+
 .projectCard-links a {
-    color: #6751b9;
+    color: #967df0;
     text-decoration: none;
     font-weight: 500;
 }
@@ -73,6 +110,17 @@
     text-decoration: underline;
 }
 
+.description-hide {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    max-height: 4.5em;
+}
+
+.description-full {}
+
 @media (max-width: 1024px) {
     .projectCard {
         max-width: 300px;
@@ -80,10 +128,6 @@
 
     .projectCard h3 {
         font-size: 1rem;
-    }
-
-    .projectCard p {
-        font-size: 0.8rem;
     }
 
     .projectCard ul li {
@@ -101,9 +145,6 @@
         font-size: 0.9rem;
     }
 
-    .projectCard p {
-        font-size: 0.9rem;
-    }
 
     .projectCard ul li {
         font-size: 0.7rem;
@@ -117,10 +158,6 @@
 
     .projectCard h3 {
         font-size: 0.8rem;
-    }
-
-    .projectCard p {
-        font-size: 0.6rem;
     }
 
     .projectCard ul li {

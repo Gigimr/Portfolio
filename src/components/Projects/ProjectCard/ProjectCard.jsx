@@ -3,27 +3,35 @@ import { Tilt } from 'react-tilt';
 import './ProjectCard.css';
 
 const ProjectCard = ({ details }) => {
+    const { title, imgUrl, description, skills, source, demo } = details;
+    const [showMore, setShowMore] = React.useState(description.length > 55)
     return (
         <Tilt className="projectCardTilt" options={{ max: 25, scale: 1.05 }}>
-            <div className="Tilt-inner projectCard">
-                <a href={details.demo}>
-                    <img src={details.imgUrl} alt="img" />
+            <div className={`Tilt-inner projectCard`}>
+                <a href={demo}>
+                    <img className="projectCard-img" src={imgUrl} alt="img" />
                 </a>
 
-                <div className="projectCard-content">
-                    <h3>{details.title}</h3>
-                    <p>{details.description}</p>
+                <div className={`projectCard-content ${!showMore ? 'projectCard-content-full' : 'projectCard-content-hide'}  `}>
+                    <h3>{title}</h3>
+                    <>
+                        <p className={`projectCard-content-description ${!showMore ? 'description-full ' : 'description-hide '} `}> {description}</p>
+                    </>
                     <ul>
-                        {details.skills.map((skill, index) => (
+                        {skills.map((skill, index) => (
                             <li key={index}>{skill}</li>
                         ))}
                     </ul>
                     <div className="projectCard-links">
-                        <a href={details.source}>Source</a>
+                        <a href={source}>Preview</a>
                     </div>
+
                 </div>
+                {showMore ? <div className="showMore" onClick={() => setShowMore(!showMore)}>
+                    showMore
+                </div> : null}
             </div>
-        </Tilt>
+        </Tilt >
     );
 };
 
