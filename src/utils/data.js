@@ -90,37 +90,37 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
     {
-        title: 'Project React',
-        imgUrl: './assets/images/logo512.png',
-        description: 'Desing & Development',
-        skills: ['React', 'Express'],
-        demo: "https://www.example.com",
-        source: 'https://github.com/'
+        title: 'Website UI/UX',
+        imgUrl: './assets/images/Website-react.png',
+        description: 'Developed a responsive web application using React and Tailwind CSS, focusing on a modern and clean design template. Implemented dynamic components and interactive features to enhance user experience, ensuring cross-browser compatibility and mobile responsiveness. Utilized Tailwind CSS for efficient and scalable styling, adhering to best practices in front-end development.',
+        skills: ['React', 'Tailwind CSS'],
+        demo: "https://66abc0733cf2b41a00b523bb--dazzling-paletas-e18c41.netlify.app/",
+        source: 'https://github.com/Gigimr/WebSite-UI-UX'
 
     },
     {
-        title: 'Project React and Node.js',
-        imgUrl: './assets/images/logo512.png',
-        description: 'Real Time Chat ',
-        skills: ['React', 'Express'],
+        title: 'Real Time Chat',
+        imgUrl: './assets/images/Real-time-chat.png',
+        description: 'Developed a responsive web application using React, featuring real-time chat functionality with Express, Socket.io, Node, and Vite. Implemented dynamic components, ensuring cross-browser compatibility and mobile responsiveness. Utilized best practices in front-end development.',
+        skills: ['React', 'Express','Socket.io','Node','Vite'],
         demo: "https://6634090b1174b1521c3ae817--splendid-llama-1c35ec.netlify.app/",
         source: 'https://github.com/Gigimr/RealTimeChat'
     },
     {
-        title: 'Project CSS',
-        imgUrl: './assets/images/logo512.png',
-        description: 'Desing & Development',
-        skills: ['React', 'Express'],
-        demo: "https://www.example.com",
-        source: 'https://github.com/'
+        title: 'Tic Tac Toe Game',
+        imgUrl: './assets/images/tic-tac-toe.png',
+        description: 'Developed a responsive tic tac toe game using React',
+        skills: ['React'],
+        demo: "https://tic-tac-toe-gigi.netlify.app/",
+        source: 'https://github.com/Gigimr/tic-tac-toe'
     },
     {
-        title: 'Project HTML',
+        title: 'Blogs FullStack',
         imgUrl: './assets/images/logo512.png',
-        description: 'Desing & Development',
-        skills: ['React', 'Express'],
-        demo: "https://www.example.com",
-        source: 'https://github.com/'
+        description: 'Developed a full-stack blog application using React and Tailwind CSS for the front end, with Express and Node for the back end. Implemented MongoDB for data storage and JSON Web Tokens for secure authentication. Employed Jest for unit testing and Cypress for end-to-end testing, ensuring a reliable and robust application.',
+        skills: ['React','Tailwind','Express','MongoDb', 'Node','JsonWebToken','Jest','Cypress'],
+        //demo: "https://www.example.com",
+        source: 'https://github.com/Gigimr/Blog'
     }
 
 
