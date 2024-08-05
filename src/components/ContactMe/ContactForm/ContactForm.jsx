@@ -3,7 +3,9 @@ import './ContactForm.css'
 
 const ContactForm = () => {
     return (
-        <div className="contact-form-content">
+        <div >
+            {/* //TODO make this work */}
+            {/* <div className="contact-form-content"> 
             <form>
                 <div className="name-container">
                     <input type="text" name="firstname" placeholder="First Name" />
@@ -13,7 +15,7 @@ const ContactForm = () => {
                 <textarea type="text" name="message" placeholder="Message" rows={3} />
 
                 <button>SEND</button>
-            </form>
+            </form> */}
         </div>
     )
 };
