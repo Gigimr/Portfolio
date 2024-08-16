@@ -37,10 +37,10 @@
 .projects-container p {
     font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 2rem;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .projects-content {
@@ -75,6 +75,7 @@
 
     .projects-container p {
         font-size: 0.9rem;
+        margin-bottom: none;
     }
 
     .projects-container::after,
@@ -91,6 +92,7 @@
 
     .projects-container p {
         font-size: 0.8rem;
+        margin-bottom: none;
     }
 
     .projects-container::after,

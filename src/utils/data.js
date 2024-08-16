@@ -43,7 +43,7 @@ export const SKILLS = [
         icon: './assets/images/communication.png',
         skills: [
             { skill: "Problem-solving", percentage: '85%' },
-            { skill: "Team-player ", percentage: '85%' },
+            { skill: "Team-player ", percentage: '100%' },
             { skill: "Attention to Detail", percentage: '80%' },
 
         ]
@@ -71,7 +71,7 @@ export const PROJECTS = [
         title: 'Website UI/UX',
         imgUrl: './assets/images/Website-react.png',
         description: 'Developed a responsive web application using React and Tailwind CSS, focusing on a modern and clean design template. Implemented dynamic components and interactive features to enhance user experience, ensuring cross-browser compatibility and mobile responsiveness. Utilized Tailwind CSS for efficient and scalable styling, adhering to best practices in front-end development.',
-        skills: ['React', 'Tailwind CSS'],
+        skills: ['react', 'tailwind'],
         demo: "https://66abc0733cf2b41a00b523bb--dazzling-paletas-e18c41.netlify.app/",
         source: 'https://github.com/Gigimr/WebSite-UI-UX'
 
