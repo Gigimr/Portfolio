@@ -41,9 +41,6 @@ const ProjectCard = ({ details }) => {
               <p key={index}>#{skill}</p>
             ))}
           </div>
-          {/* <div className="projectCard-links">
-            <a href={source}>Preview</a>
-          </div> */}
            {showMore ? (
           <div className="showMore" onClick={() => setShowMore(!showMore)}>
             showMore

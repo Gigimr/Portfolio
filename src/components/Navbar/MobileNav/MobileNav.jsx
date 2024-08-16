@@ -36,7 +36,7 @@ const MobileNav = ({ isOpen, toggleMenu, sections, scrollToRef }) => {
                                 scrollToRef(sections.contact)
                             }>Contact Me</div>
                         </li>
-                        <a className='a-tag' href={resume} download='Resume' target="_blank" >
+                        <a className='a-tag' href={resume} download='Resume' target="_blank" rel="noreferrer" >
                             <button className="contact-btn" onClick={() => { }}>
                                 Resume
                             </button>
